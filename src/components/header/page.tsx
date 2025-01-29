@@ -7,16 +7,8 @@ import HeroSection from "./heroSection";
 const Header = () => {
   return (
     <div className="relative ">
-
-      <div
-        className="relative bg-no-repeat bg-cover bg-center w-full h-screen"
-        style={{
-          backgroundImage: "url(/header/gradient.png)",
-        }}
-      >
-        <Menu />
-        <HeroSection />
-      </div>
+      <Menu />
+      <HeroSection />
     </div>
   );
 };
