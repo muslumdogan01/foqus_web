@@ -8,10 +8,10 @@ const Card: React.FC<CardProps> = ({ title, subTitle }) => {
     <div className="rounded-[30px] inline-flex flex-col deneme w-[606px] h-[500px] px-10 justify-end pb-10"
 
     >
-      <h1 className="text-[32px] leading-[44.8px] text-left tracking-[-0.02em] text-[#202428] font-medium ">
+      <h1 className="text-[32px] leading-[44.8px] text-left tracking-[-0.02em] text-[#202428] font-medium relative z-50">
         {title}
       </h1>
-      <p className="text-[16px] 2xl:text-[24px] leading-[26.6px] text-left text-[#202428] font-normal  ">
+      <p className="text-[16px] 2xl:text-[24px] leading-[26.6px] text-left text-[#202428] font-normal  relative z-50">
         {subTitle}
       </p>
     </div>

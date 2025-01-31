@@ -3,13 +3,13 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="w-full ">
-      <div className="container mx-auto">
+    <div className="w-full">
+      <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col">
-          <h1 className="font-medium text-[64px] 2xl:mt-[170px] xl:mt-[40px] leading-[96px] tracking-[-0.02em] text-[#202428]">
+          <h1 className=" relative z-50 font-medium text-[64px] xl:mt-16 2xl:mt-36 leading-[96px] tracking-[-0.02em] text-[#202428]">
             İşletmenizi <br /> büyütmek için <br /> tek bir uygulama!
           </h1>
-          <p className="font-normal text-lg 2xl:text-2xl leading-[28px] text-[#202428] mt-5">
+          <p className="relative z-50 font-normal text-lg 2xl:text-2xl leading-[28px] text-[#202428] mt-5">
             Tablet veya akıllı telefon üzerinden ürün satışını <br /> kolayca
             yapın, mağazalarınızı yönetin, raporlayın <br /> ve büyümeye
             odaklanın.

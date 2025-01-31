@@ -8,9 +8,9 @@ const Menu = () => {
 
   return (
     <div className="w-full">
-      <div className="container mx-auto">
-        <div className="w-full flex justify-between items-center pt-[50px]">
-          <div className="flex justify-start items-center w-3/4">
+      <div className="container mx-auto max-w-6xl">
+        <div className="w-full flex justify-between items-center pt-[50px] z-50 relative">
+          <div className="flex  items-center ">
             <div className="flex">
               <Image src="/header/logo.svg" width={50} height={50} alt="logo" />
             </div>
@@ -21,7 +21,7 @@ const Menu = () => {
               <MenuItems />
             </div>
           </div>
-          <div className="flex w-1/4 justify-end items-center">
+          <div className="flex   items-center">
             <div className="p-4">
               <button
                 className="md:hidden text-gray-700 focus:outline-none space-y-2"

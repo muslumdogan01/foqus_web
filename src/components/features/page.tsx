@@ -4,8 +4,8 @@ import SecondCards from "./secondCards";
 
 const Features = () => {
   return (
-    <div className="w-full mt-[230px] ">
-      <div className="container mx-auto">
+    <div className="w-full  ">
+      <div className="container mx-auto max-w-6xl ">
         <div className="flex justify-center w-full space-x-6">
           <Card
             title="Hızlı ve Kolay Kurulum"
