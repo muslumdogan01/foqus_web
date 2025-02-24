@@ -22,7 +22,7 @@ export default function ImageList() {
       ];
   return (
     <div className="flex flex-col justify-center items-center w-full relative ">
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center z-10">
         {images.map((image, index) => (
           <div key={index} className={`${image.marginTop} ${image.marginLeft} ${image.marginRight}`}>
             <Image
@@ -35,7 +35,7 @@ export default function ImageList() {
           </div>
         ))}
       </div>
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center z-10">
         {images2.map((image, index) => (
           <div key={index} className={`${image.marginTop} ${image.marginLeft} ${image.marginRight}`}>
             <Image
