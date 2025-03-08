@@ -4,9 +4,10 @@ import SecondCards from "./secondCards";
 
 const Features = () => {
   return (
-    <div className="w-full  ">
+    <div className="w-full md:pt-[236px] pt-[-40px] relative">
+      
       <div className="container mx-auto max-w-6xl ">
-        <div className="flex justify-center w-full space-x-6">
+        <div className="flex flex-col md:flex-row justify-center w-full space-x-6 ">
           <Card
             title="Hızlı ve Kolay Kurulum"
             subTitle={
@@ -28,7 +29,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="w-full flex space-x-6 justify-center mt-6">
+        <div className="w-full flex flex-col md:flex-row space-x-6 justify-center mt-6">
           <SecondCards title={<>Kapsamlı Raporlama <br /> ve Analiz</>} />
           <SecondCards title={<>Stok ve sipariş <br /> yöntemi</>} />
           <SecondCards title={<>Her zaman ve <br /> her yerde erişim</>} />

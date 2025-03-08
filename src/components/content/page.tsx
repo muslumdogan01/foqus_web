@@ -14,7 +14,7 @@ const Content = () => {
         <h1 className="text-[80px] tracking-[-0.02em] text-[#202428] font-medium leading-[96px] text-center">
           Her sektöre <br /> kolayca entegre <br /> satış çözümü!
         </h1>
-        <p className="text-center pt-[40px] text-lg leading-[28px] text-[#202428]">
+        <p className="text-center pt-[40px] text-lg 2xl:text-2xl  leading-[28px] text-[#202428]">
           Her sektöre uyarlanabilen bu çözümle, satış süreçlerinizi tek
           platformda yönetin. <br /> Stok takibinden siparişe, her adımda
           kolaylık sağlar...
