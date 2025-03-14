@@ -1,5 +1,9 @@
 import React from "react";
 import ImageGrid from "./imageGrid";
+import Directions from "./directions";
+import Prices from "./prices";
+import FAQSection from "./faq";
+import GetStart from "./getStart";
 
 const Content = () => {
   return (
@@ -21,6 +25,10 @@ const Content = () => {
         </p>
       </div>
       <ImageGrid />
+      <Directions />
+      <Prices />
+      <FAQSection />
+      <GetStart/>
     </div>
   );
 };
