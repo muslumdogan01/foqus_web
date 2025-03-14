@@ -1,7 +1,7 @@
-"use client";
+ "use client";
 
 import React from "react";
-import Menu from "./menu";
+
 import HeroSection from "./heroSection";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
           backgroundImage: "url(/header/phone2.png)",
         }}
       ></div> */}
-      <Menu />
+ 
       <HeroSection />
     </div>
   );
