@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Menu from "@/components/header/menu";
 import BgColor from "@/components/bgColor/page";
+import BackgroundImage from "@/components/bg/page";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans`}>
+        <BackgroundImage/>
         <BgColor/>
         <Menu />
         {children}
