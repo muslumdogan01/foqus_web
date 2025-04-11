@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import FAQSection from "./faq";
 
 const Prices = () => {
   return (
-    <div className="container mx-auto max-w-6xl">
+    <div className="container mx-auto flex justify-center items-center">
       <div className="relative w-full p-[10px] border border-[#2024281A]  z-0 rounded-[56px]">
         <div className="relative w-full py-[140px] z-0 rounded-[56px] border border-[#2A33450A]">
           <svg className="absolute inset-0 w-full h-full opacity-50 z-10 rounded-[56px] bg-white">
@@ -38,72 +39,45 @@ const Prices = () => {
               başla.
             </p>
           </div>
-          <div className="relative z-20">
-  <div className="flex flex-col md:flex-row justify-center items-start px-4 pt-20 gap-6">
+          <div className="relative z-20 w-full flex justify-center items-center">
+  <div className="w-full flex justify-center items-center pt-20 gap-12 mx-36">
 
-    <div className="w-[320px] p-6 bg-white border border-black/55 rounded-[30px] shadow-sm text-center flex flex-col">
-      <h2 className="text-2xl font-medium leading-[60px] tracking-[-0.02em] text-[#263143]">
-        ₺0
-      </h2>
-      <p className="font-normal leading-8 tracking-normal text-[#263143] text-[20px]">
-        Ücretsiz
-      </p>
-
-      <ul className="mt-4 space-y-2 font-normal text-[14px] leading-[22px] tracking-normal text-[#202428] text-left flex-grow">
-        <li className="flex space-x-[10px]">
-          <Image src="/content/circle.svg" width={20} height={20} alt="circle" />
-          <span>Detaylı Satış Rapor Yönetimi</span>
-        </li>
-        <li className="flex space-x-[10px]">
-          <Image src="/content/circle.svg" width={20} height={20} alt="circle" />
-          <span>7/24 Destek</span>
-        </li>
-        <li className="flex space-x-[10px]">
-          <Image src="/content/circle.svg" width={20} height={20} alt="circle" />
-          <span>7/24 Destek</span>
-        </li>
-      </ul>
-
-      <button className="mt-[32px] w-full py-2 px-4 border border-gray-300 rounded-full text-[#263143] leading-[29px] text-lg font-normal hover:bg-gray-200 transition">
-        Ücretsiz Kullanmaya Başla
-      </button>
-    </div>
-
-    <div className="w-[320px] px-[30px] bg-[#00B46A] text-white rounded-2xl shadow-lg text-center flex flex-col">
-      <h2 className="text-2xl pt-[50px] font-semibold">₺99,99</h2>
-      <p className="opacity-80">1 Terminal Fiyatı</p>
+    <div className="w-[500px] h-[526px] px-[30px] bg-[#00B46A] text-white rounded-[30px] border-2 border-black/10 shadow-lg text-center flex flex-col">
+      <h2 className="text-[40px] pt-[50px] font-bold leading-[1.5] tracking-[0.02em]">₺0,00</h2>
+      <p className="opacity-80 leading-[1.6] tracking-normal">Sınırsız Terminal Fiyatı</p>
 
       <ul className="text-left pt-[30px] space-y-2 pb-6 flex-grow">
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>Detaylı Satış Rapor Yönetimi</span>
+          <span className="tracking-normal leading-[1.6]">Detaylı Satış Rapor Yönetimi</span>
         </li>
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>QR Menü Desteği</span>
+          <span className="tracking-normal leading-[1.6]">Farklı Ödeme Kanalları</span>
         </li>
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>7/24 Destek</span>
+          <span className="tracking-normal leading-[1.6]">E-Mağaza Desteği</span>
         </li>
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>7/24 Destek</span>
+          <span className="tracking-normal leading-[1.6]">7/24 Destek</span>
         </li>
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>7/24 Destek</span>
+          <span className="tracking-normal leading-[1.6]">Gelişmiş Stok Yönetimi</span>
         </li>
         <li className="flex space-x-[10px]">
           <Image src="/content/circleWhite.svg" width={20} height={20} alt="circle2" />
-          <span>7/24 Destek</span>
+          <span className="tracking-normal leading-[1.6]">Ve Yüzlerce Özellik</span>
         </li>
       </ul>
 
-      <button className="mt-[56px]  mb-[30px] w-full py-2 px-4 bg-white text-[#263143] leading-[29px] text-lg font-normal rounded-full hover:bg-gray-300 transition">
+      <button className=" mb-[30px] w-full py-[15px] px-4 bg-white text-[#263143] leading-[29px] text-lg font-normal rounded-full hover:bg-gray-300 transition">
         Kullanmaya Başla
       </button>
     </div>
+    <FAQSection/>
   </div>
 </div>
 

@@ -13,23 +13,23 @@ const Features = () => {
               backgroundImage: "url(/content/dotss.png)",
             }}
           >
-<div className="w-full flex flex-col ">
-  <Image
-    src="/content/play.svg"
-    alt="svg1"
-    width={236}
-    height={196}
-    className="absolute top-[60px] left-[135px] transition-all duration-500 ease-in-out hover:rotate-6 hover:scale-110 hover:cursor-pointer"
-  />
+            <div className="w-full flex flex-col ">
+              <Image
+                src="/content/play.svg"
+                alt="svg1"
+                width={236}
+                height={196}
+                className="absolute top-[60px] left-[135px] transition-all duration-500 ease-in-out hover:rotate-6 hover:scale-110 hover:cursor-pointer"
+              />
 
-  <Image
-    src="/content/apple.svg"
-    alt="svg2"
-    width={236}
-    height={196}
-    className="absolute top-[114px] left-[220px] transition-all duration-500 ease-in-out hover:-rotate-6 hover:scale-110 hover:cursor-pointer"
-  />
-</div>
+              <Image
+                src="/content/apple.svg"
+                alt="svg2"
+                width={236}
+                height={196}
+                className="absolute top-[114px] left-[220px] transition-all duration-500 ease-in-out hover:-rotate-6 hover:scale-110 hover:cursor-pointer"
+              />
+            </div>
 
             <Image
               src="/content/flash.svg"
@@ -52,15 +52,15 @@ const Features = () => {
               backgroundImage: "url(/content/dotss.png)",
             }}
           >
-<div className="w-full flex justify-center items-start">
-  <Image
-    src="/content/eShop.svg"
-    alt="svg1"
-    width={326}
-    height={228}
-    className="absolute left-28 top-[60px] transition-transform duration-500 ease-in-out hover:scale-110 hover:cursor-pointer"
-  />
-</div>
+            <div className="w-full flex justify-center items-start">
+              <Image
+                src="/content/eShop.svg"
+                alt="svg1"
+                width={326}
+                height={228}
+                className="absolute left-28 top-[60px] transition-transform duration-500 ease-in-out hover:scale-110 hover:cursor-pointer"
+              />
+            </div>
 
             <Image
               src="/content/shopping.svg"
@@ -80,6 +80,8 @@ const Features = () => {
         </div>
         <div className="w-full flex flex-col md:flex-row space-x-6 justify-center mt-6">
           <SecondCards
+          image="/content/rapor.png"
+          icon="/content/graph.svg"
             title={
               <>
                 Kapsamlı Raporlama <br /> ve Analiz
@@ -87,6 +89,8 @@ const Features = () => {
             }
           />
           <SecondCards
+           image="/content/stok.png"
+           icon="/content/box.svg"
             title={
               <>
                 Stok ve sipariş <br /> yöntemi
@@ -94,6 +98,8 @@ const Features = () => {
             }
           />
           <SecondCards
+           image="/content/zaman.png"
+           icon="/content/monitor.svg"
             title={
               <>
                 Her zaman ve <br /> her yerde erişim
