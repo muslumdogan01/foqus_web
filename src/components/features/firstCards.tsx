@@ -4,11 +4,12 @@ import React, { ReactNode } from "react";
 interface CardProps {
   title: string;
   subTitle: ReactNode;
-  image1: string;
+  imageSvg1?: string;
+  imageSvg2?: string;
   image2: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, subTitle, image1, image2 }) => {
+const Card: React.FC<CardProps> = ({ title, subTitle, imageSvg1,imageSvg2, image2 }) => {
   return (
     <div
       className="rounded-[30px] deneme inline-flex flex-col w-[606px] h-[500px] px-10 justify-end pb-10 "
@@ -16,14 +17,25 @@ const Card: React.FC<CardProps> = ({ title, subTitle, image1, image2 }) => {
         backgroundImage: "url(/content/dotss.png)",
       }}
     >
-<div className="w-full flex justify-center items-start  h-[235px] ">
-  <Image
-    src={image1}
-    alt="card visual"
-    width={326}
-    height={228}
-    className="object-contain max-h-[235px] "
-  />
+<div className="w-full flex justify-center items-start space-x-[-20rem] ">
+{imageSvg1 && (
+    <Image
+      src={imageSvg1}
+      alt="svg1"
+      width={236}
+      height={196}
+      className="object-contain"
+    />
+  )}
+  {imageSvg2 && (
+    <Image
+      src={imageSvg2}
+      alt="svg2"
+      width={236}
+      height={196}
+      className="object-contain -mt-10"
+    />
+  )}
 </div>
       <Image
         src={image2}
