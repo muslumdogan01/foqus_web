@@ -19,7 +19,7 @@ const Features = () => {
                 alt="svg1"
                 width={236}
                 height={196}
-                className="absolute top-[60px] left-[135px] transition-all duration-500 ease-in-out hover:rotate-6 hover:scale-110 hover:cursor-pointer"
+                className="absolute top-[60px] left-[135px] transition-all duration-500 ease-in-out hover:rotate-6 hover:scale-110"
               />
 
               <Image
@@ -27,7 +27,7 @@ const Features = () => {
                 alt="svg2"
                 width={236}
                 height={196}
-                className="absolute top-[114px] left-[220px] transition-all duration-500 ease-in-out hover:-rotate-6 hover:scale-110 hover:cursor-pointer"
+                className="absolute top-[114px] left-[220px] transition-all duration-500 ease-in-out hover:-rotate-6 hover:scale-110"
               />
             </div>
 
@@ -58,7 +58,7 @@ const Features = () => {
                 alt="svg1"
                 width={326}
                 height={228}
-                className="absolute left-28 top-[60px] transition-transform duration-500 ease-in-out hover:scale-110 hover:cursor-pointer"
+                className="absolute left-28 top-[60px] transition-transform duration-500 ease-in-out hover:scale-110 "
               />
             </div>
 

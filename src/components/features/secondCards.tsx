@@ -14,7 +14,7 @@ const secondCards: React.FC<CardProps> = ({ title, image, icon }) => {
         alt="svg1"
         width={336}
         height={208}
-        className="flex justify-center items-center mt-[25px] transition-transform duration-500 ease-in-out hover:scale-110 hover:cursor-pointer"
+        className="flex justify-center items-center mt-[25px] transition-transform duration-500 ease-in-out hover:scale-110 "
       />
       </div>
     <div className="px-10 space-y-5">

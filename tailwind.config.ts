@@ -18,7 +18,9 @@ export default {
         'custom-3': '0px 3px 3px -1.5px #2A33460A',
         'custom-4': '0px 6px 6px -3px #2A33460A',
       },
-      
+      animation: {
+        shake: 'shake 0.3s ease-in-out',
+      },
     },
   },
   plugins: [],
