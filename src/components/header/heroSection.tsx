@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="w-full">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col">
-          <h1 className="md:text-left text-center relative z-50 font-medium md:text-[64px] text-[40px] xl:mt-16 2xl:mt-36 md:leading-[96px] tracking-[-0.02em] text-[#202428]">
+          <h1 className="md:text-left text-center relative z-50 font-medium md:text-[64px] text-[40px] mt-[60px] xl:mt-16 2xl:mt-36 md:leading-[96px] tracking-[-0.02em] text-[#202428]">
             İşletmenizi <br /> büyütmek için <br /> tek bir uygulama!
           </h1>
           <p className="relative md:text-left text-center  z-50 font-normal text-lg 2xl:text-2xl leading-[28px] text-[#202428] mt-5">

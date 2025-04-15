@@ -1,16 +1,16 @@
 "use client"
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import MenuItems from "./menuItem";
-import MobilMenu from "./mobilMenu";
+// import MobilMenu from "./mobilMenu";
 
 const Menu = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="w-full">
       <div className="container mx-auto max-w-6xl">
-        <div className="w-full flex justify-between items-center pt-[50px] z-50 relative">
+        <div className="w-full flex md:justify-between justify-center md:items-center md:pt-[50px] pt-[76px] z-50 relative">
           <div className="flex  items-center ">
             <div className="flex">
               <Image src="/header/logo.svg" width={50} height={50} alt="logo" />
@@ -23,7 +23,7 @@ const Menu = () => {
             </div>
           </div>
           <div className="flex   items-center">
-            <div className="p-4">
+            {/* <div className="p-4">
               <button
                 className="md:hidden text-gray-700 focus:outline-none space-y-2"
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -32,7 +32,7 @@ const Menu = () => {
                 <div className="w-6 h-1 bg-black font-bold"></div>
                 <div className="w-6 h-1 bg-black font-bold"></div>
               </button>
-            </div>
+            </div> */}
             <div className="hidden md:flex bg-[#202428] rounded-[60px] space-x-[10px] py-[10px] px-[30px] cursor-pointer group">
               <span className="leading-7 text-lg font-normal text-white">
                 Get Started
@@ -48,7 +48,7 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        {menuOpen && <MobilMenu />}
+        {/* {menuOpen && <MobilMenu />} */}
       </div>
     </div>
   );

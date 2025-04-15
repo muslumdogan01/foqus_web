@@ -33,7 +33,7 @@ export default function FAQSection() {
 
   return (
     <div className="w-full flex flex-col justify-center items-center rounded-xl">
-      <h2 className="text-[32px] tracking-[-0.02em] font-medium text-[#202428]">
+      <h2 className="text-[32px] tracking-[-0.02em] font-medium text-[#202428] px-10 lg:px-0 text-center">
         Aklınızdaki Sorulara Hızlı Yanıtlar
       </h2>
 

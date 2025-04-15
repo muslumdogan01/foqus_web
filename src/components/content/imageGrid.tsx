@@ -107,7 +107,7 @@ export default function ImageList() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center w-full relative">
+    <div className="xl:flex hidden flex-col justify-center items-center w-full relative">
       <div className="inline-flex justify-center z-10 relative">
         {images.map((image, index) => (
           <div
@@ -140,7 +140,7 @@ export default function ImageList() {
                 {image.title}
                 </span>
                 <div className=" absolute 2xl:bottom-[25px] bottom-5 left-0 flex justify-center items-center w-full text-center ">
-                  <span className=" hover:animate-bounce transition-all duration-500 ease-in-out text-[#202428] text-[20px] font-medium rounded-[50px] bg-white 2xl:py-[14px] py-2 px-4 cursor-pointer 2xl:px-10 leading-[1.4] tracking-[-0.02em]  text-center">
+                  <span className=" hover:animate-pulse  transition-all duration-500 ease-in-out text-[#202428] text-[20px] font-medium rounded-[50px] bg-white 2xl:py-[14px] py-2 px-4 cursor-pointer 2xl:px-10 leading-[1.4] tracking-[-0.02em]  text-center">
                     Kullanmaya başla
                   </span>
                 </div>
@@ -178,7 +178,7 @@ export default function ImageList() {
                 {img.title}
                 </span>
                 <div className=" absolute 2xl:bottom-[25px] bottom-5 left-0 flex justify-center items-center w-full text-center ">
-                  <span className=" hover:animate-bounce transition-all duration-500 ease-in-out text-[#202428] text-[20px] font-medium rounded-[50px] bg-white 2xl:py-[14px] py-2 px-4 cursor-pointer 2xl:px-10 leading-[1.4] tracking-[-0.02em]  text-center">
+                  <span className=" hover:animate-pulse transition-all duration-500 ease-in-out text-[#202428] text-[20px] font-medium rounded-[50px] bg-white 2xl:py-[14px] py-2 px-4 cursor-pointer 2xl:px-10 leading-[1.4] tracking-[-0.02em]  text-center">
                     Kullanmaya başla
                   </span>
                 </div>

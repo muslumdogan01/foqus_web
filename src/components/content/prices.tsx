@@ -5,9 +5,9 @@ import FAQSection from "./faq";
 const Prices = () => {
   return (
     <div className="container mx-auto flex justify-center items-center">
-      <div className="relative w-full p-[10px] border border-[#2024281A]  z-0 rounded-[56px]">
-        <div className="relative w-full py-[140px] z-0 rounded-[56px] border border-[#2A33450A]">
-          <svg className="absolute inset-0 w-full h-full opacity-50 z-10 rounded-[56px] bg-white">
+      <div className="relative w-full p-[10px] lg:border lg:border-[#2024281A]  z-0 rounded-[56px]">
+        <div className="relative w-full py-[140px] z-0 lg:rounded-[56px] lg:border lg:border-[#2A33450A]">
+          <svg className="absolute inset-0 hidden md:block w-full h-full opacity-50 z-10 rounded-[56px] bg-white">
             <defs>
               <linearGradient id="dotsGradient" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor="rgba(0, 0, 0, 0.1)" />
@@ -39,10 +39,10 @@ const Prices = () => {
               başla.
             </p>
           </div>
-          <div className="relative z-20 w-full flex justify-center items-center">
-  <div className="w-full flex justify-center items-center pt-20 gap-12 mx-36">
+          <div className="relative z-20 w-full lg:flex-row flex-col flex justify-center items-center">
+  <div className="w-full lg:flex-row flex-col flex  justify-center items-center pt-20 gap-12 mx-36">
 
-    <div className="w-[500px] h-[526px] px-[30px] bg-[#00B46A] text-white rounded-[30px] border-2 border-black/10 shadow-lg text-center flex flex-col">
+    <div className="lg:w-[500px] w-[343px] h-[526px] px-[30px] bg-[#00B46A] text-white rounded-[30px] border-2 border-black/10 shadow-lg text-center flex flex-col">
       <h2 className="text-[40px] pt-[50px] font-bold leading-[1.5] tracking-[0.02em]">₺0,00</h2>
       <p className="opacity-80 leading-[1.6] tracking-normal">Sınırsız Terminal Fiyatı</p>
 

@@ -3,7 +3,7 @@ import React from "react";
 
 const Directions = () => {
   return (
-    <div className="relative w-full   py-96 z-0">
+    <div className="relative w-full hidden xl:block  py-96 z-0">
       <Image
         src="/content/directionsBg.png"
         fill
