@@ -1,7 +1,6 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
-import MenuItems from "./menuItem";
 // import MobilMenu from "./mobilMenu";
 
 const Menu = () => {
@@ -13,14 +12,19 @@ const Menu = () => {
         <div className="w-full flex md:justify-between justify-center md:items-center md:pt-[50px] pt-[76px] z-50 relative">
           <div className="flex  items-center ">
             <div className="flex">
-              <Image src="/header/logo.svg" width={50} height={50} alt="logo" />
+              <Image
+                src="/header/logo.png"
+                width={242}
+                height={45}
+                alt="logo"
+              />
             </div>
-            <div className="md:flex hidden px-[50px] ">
+            {/* <div className="md:flex hidden px-[50px] ">
               <Image src="/header/line.svg" width={1} height={28} alt="logo" />
-            </div>
-            <div className="hidden md:flex">
+            </div> */}
+            {/* <div className="hidden md:flex">
               <MenuItems />
-            </div>
+            </div> */}
           </div>
           <div className="flex   items-center">
             {/* <div className="p-4">
