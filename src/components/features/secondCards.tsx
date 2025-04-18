@@ -7,13 +7,13 @@ interface CardProps {
 }
 const secondCards: React.FC<CardProps> = ({ title, image, icon }) => {
   return (
-    <div className="rounded-[30px] justify-center md:justify-start inline-flex  flex-col deneme  md:w-[396px] md:h-[500px] w-[343px] h-[250px]">
+    <div className="rounded-[30px] justify-center items-center  inline-flex  flex-col deneme  md:w-[396px] md:h-[500px] w-[343px] h-[250px]">
       <div className="w-full md:flex hidden justify-center items-center">
       <Image
         src={image}
         alt="svg1"
-        width={336}
-        height={208}
+        width={230}
+        height={230}
         className="flex justify-center items-center mt-[25px] transition-transform duration-500 ease-in-out hover:scale-110 "
       />
       </div>

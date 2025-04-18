@@ -1,5 +1,6 @@
 import { Icon } from "@/components/Icon";
 import Image from "next/image";
+import SocialIcon from "./socialIcon";
 
 export default function Footer() {
   return (
@@ -27,17 +28,17 @@ export default function Footer() {
             </a>
           </nav>
           <div className="flex space-x-4 pt-4 md:pt-0">
-            <a href="#" className="text-white hover:text-gray-400">
-              <Icon icon="facebook" size={20} color="white" />
+            <a href="#" >
+            <SocialIcon type="facebook" />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
-              <Icon icon="twitter" size={20} color="white" />
+            <a href="#" >
+            <SocialIcon type="twitter" />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
-              <Icon icon="instagram" size={20} color="white" />
+            <a href="#" >
+            <SocialIcon type="insta" />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
-              <Icon icon="youtube" size={20} color="white" />
+            <a href="#" >
+            <SocialIcon type="youTube" />
             </a>
           </div>
         </div>
@@ -46,10 +47,16 @@ export default function Footer() {
         <div className="flex text-center md:text-left justify-between flex-col md:flex-row w-full max-w-4xl text-[#FFFFFF80] font-medium text-sm leading-[1.3]">
           <p>© 2023 YourPOS. All rights reserved.</p>
           <div className="flex space-x-6 justify-center pt-4 md:pt-0">
-            <a href="#" className="hover:text-white font-medium text-sm leading-[1.3] ">
+            <a
+              href="#"
+              className="hover:text-white font-medium text-sm leading-[1.3] "
+            >
               Gizlilik Sözleşmesi
             </a>
-            <a href="#" className="hover:text-white font-medium text-sm leading-[1.3]">
+            <a
+              href="#"
+              className="hover:text-white font-medium text-sm leading-[1.3]"
+            >
               Kullanım Şartları
             </a>
           </div>
