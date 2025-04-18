@@ -1,4 +1,3 @@
-import { Icon } from "@/components/Icon";
 import Image from "next/image";
 import SocialIcon from "./socialIcon";
 
@@ -35,10 +34,10 @@ export default function Footer() {
             <SocialIcon type="twitter" />
             </a>
             <a href="#" >
-            <SocialIcon type="insta" />
+            <SocialIcon type="instagram" />
             </a>
             <a href="#" >
-            <SocialIcon type="youTube" />
+            <SocialIcon type="youtube" />
             </a>
           </div>
         </div>
