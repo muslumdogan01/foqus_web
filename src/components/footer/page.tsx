@@ -37,7 +37,7 @@ export default function Footer() {
             <SocialIcon type="instagram" />
             </a>
             <a href="#" >
-            <SocialIcon type="youtube" />
+            <SocialIcon type="you" />
             </a>
           </div>
         </div>

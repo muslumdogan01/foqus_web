@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 interface SocialIconProps {
-  type: "facebook" | "twitter" | "youtube" | "instagram";
+  type: "facebook" | "twitter" | "you" | "instagram";
   className?: string; 
 }
 
